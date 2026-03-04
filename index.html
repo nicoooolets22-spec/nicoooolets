@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>神秘神谕 · 灵感选牌</title>
+    <title>神秘神谕</title>
     <style>
         :root {
             --gold: #c5a059;
@@ -138,7 +138,7 @@
 <body>
 
     <h1 id="title">神 谕 · 是 非 占</h1>
-    <div id="hint">静心冥想，准备开启仪式</div>
+    <div id="hint">静心冥想，默念问题，准备开启仪式</div>
 
     <div class="table" id="table">
         </div>
@@ -210,7 +210,7 @@
         await new Promise(r => setTimeout(r, 1500));
         cards.forEach(c => c.classList.remove('shuffling'));
 
-        hint.innerText = "请凭灵感抽取一张";
+        hint.innerText = "请凭直觉抽取一张";
         const radius = 420;
         const angleStep = 9; // 稍微收窄一点，适合更多屏幕
         const startAngle = -94.5; 
@@ -256,3 +256,4 @@
 </body>
 
 </html>
+
